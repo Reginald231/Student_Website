@@ -1,0 +1,36 @@
+<!-- Starting a header for html file. Always make a header -->
+<!doctype html>
+
+<head>
+  <title>Assignment Two - Reginald Long</title>
+  <meta charset="utf-8">
+  <meta name="description" content="This is my second assignment for the
+  Internet Programming course.">
+  <meta name="author" content="Reginald Long">
+  <link rel="stylesheet" type="text/css" href="Assignment_2.css" />
+  </header>
+
+  <h2>Assignment 2 Part 2</h2>
+  <h3><a style="text-align: center;" href="index.html">Home</a></h3>
+  <div class="rTableArea">
+    <div class="rTableRow">
+      <div class="rTableCell">
+        <!-- Adding the Length and Input head titles for the table. -->
+        <span></span>
+        <span style="margin-left: 5em; font-weight: bold; font-family: sans-serif;">Input</span>
+        <span style="margin-left: 2em; font-weight: bold; font-family: sans-serif;">Length</span>
+        <!-- Future cells will be added or removed programmatically in
+          Assignment_2.js-->
+      </div>
+
+    </div>
+
+<!-- Adding buttons to page for controls. -->
+    <div id="myTable" class="rTable"></div>
+    <div class="rTableFoot"><strong></strong></div>
+    <button class="addButton" id="addCell" name="addCell" onclick="addCell()">Add Cell</button>
+    <button class="removeButton" id="removeCell" name="removeCell" onclick="removeCell()">Remove Cell</button>
+    <button class="sortButton" id="sort" name="sort" onclick="sortCells()">Sort</button>
+  </div>
+
+  <script src="Assignment_2.js"></script>

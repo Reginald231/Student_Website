@@ -1,0 +1,105 @@
+<!-- Starting a header for html file. Always make a header -->
+<!doctype html>
+
+<head>
+  <title>Assignment One - Reginald Long</title>
+  <meta charset="utf-8">
+  <meta name="description" content="This is my first assignment for the
+  Internet Programming course.">
+  <meta name="author" content="Reginald Long">
+  <link rel="stylesheet" type="text/css" href="Assignment_1.css" />
+  </header>
+
+
+  <h1>CS 4720 - Internet Programming</h1>
+  <h2>Reginald Long</h2>
+  <img src="IMG_1117.jpg" width="300" height="300">
+  <!--Adding an image here below the name header...-->
+
+  <h3>About Me</h3>
+  <!-- Adding info about self here -->
+  <p>Born and raised in Georgia, I am currently a fourth-year Computer Science major at Kennesaw State
+    University. I have always been very interested in how things work and why they work. This trait eventually
+    grew larger as I looked deeper into technology and found myself even <b>more</b> fascinated.
+    I'm that guy that has a <i>million questions.</i> I am also currently pursuing internship opportunities
+    (preferably virtual) as I prepare myself for the professional workplace and atmosphere. These are
+    the CS-related classes I have taken (or am enrolled in) so far:
+  </p>
+
+  <!-- Completed or enrolled classes. -->
+  <ul style="list-style-type:square;">
+    <li>Programming Principles 1 and 2 (Java)</li>
+    <li>Introduction to Software Engineering</li>
+    <li>Introduction to Database Systems</li>
+    <li>Discrete Mathematics</li>
+    <li>Data Structures</li>
+    <li>Operating Systems</li>
+    <li>Computer Organization and Architechture</li>
+    <li>Internet Programming</li>
+    <li>Concepts of Programming Languages</li>
+    <li>Algorithm Analysis</li>
+  </ul>
+
+  <p>This is actually my first use of HTML as I have had <em>no</em> other
+    experience with web development. However, I have used other
+    languages including:
+  </p>
+
+  <ul style="list-style-type:square;">
+    <li>Java</li>
+    <li>Swift</li>
+    <li>C++</li>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>SQLite</li>
+    <li>MySQL</li>
+  </ul>
+
+  <!--Adding header and links to websites here...-->
+  <h3>Helpful Links and References</h3>
+
+  <p>A GitHub page showing my growth in programming can be found
+    <em><a href="https://www.github.com/reginald231">here.</a></em>if you are
+    interested.
+  </p>
+
+  <p>If you want to start programming in HTML, I found
+    <em><a href="https://www.html.com">
+        this website</a></em> quite easy to understand while I was creating this
+    page.
+  </p>
+
+  <p>I remembered that our Internet Programming class will be using Django in the
+    future, so I'll leave a link to a helpful YouTube channel I watch from time to
+    time. I originally found this channel while searhing for Python programming
+    tutorials, and I noticed that he has also covered Django, so I believe this
+    will be a great help for later (and a great help now if any visitors of
+    my page wish to teach themselves Python). You can find the channel
+    (Tech With Tim)
+    <a href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg"><em>here.
+      </em></a>
+  </p>
+
+  <p><a href="https://www.GeeksforGeeks.org">GeeksforGeeks</a> is also a great
+    resource for understanding programming concepts in general such as data structures
+    and algorithms. They've helped me a lot in the past and I'm sure the site will
+    be of good use in the future.
+  </p>
+
+  <p><a href="https://www.stackoverflow.com">StackOverflow</a> and the subreddit,
+    <a href="https://www.reddit.com/r/learnprogramming">r/learnprogramming</a>, are
+    good resources for troubleshooting issues in code. More specifically,
+    r/learnprogramming is a more informal community that is willing to answer
+    programming related questions and give helpful advice. I've found myself
+    traversing both of these sites frequently.
+    <p>
+
+<!-- List of links to future assignments... -->
+<h3>Assignments</h3>
+      <ul class="assignment_list" style="list-style-type:square;">
+        <li>This webpage is the first assignment.</li>
+        <li><a href="Assignment_2_Part_1.html">Assignment 2</a></li>
+        <li><a href="Assignment_3.html">Assignment 3</a></li>
+        <li><a href="Assignment_4-Database.html">Assignment_4-Database</a></li>
+        <li><a href="Assignment_4-Socket.html">Assignment_4-Socket</a></li>
+      </ul>

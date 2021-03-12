@@ -1,0 +1,145 @@
+.rTableArea{
+  display: table;
+  width: 50%;
+  border: 3px solid black;
+  text-align: left;
+}
+
+.rTable {
+   display: table;
+   width: 100%;
+}
+.rTableHeadRow{
+  display: table-row;
+}
+.rTableRow {
+   display: table-row;
+}
+.rTableHeading {
+   display: table-header-group;
+   background-color: #ddd;
+}
+.rTableCell, .rTableHead {
+   display: table-cell;
+   padding: 3px 10px;
+}
+
+.rTableHeading {
+   display: table-header-group;
+   background-color: #ddd;
+   font-weight: bold;
+}
+.rTableFoot {
+   display: table-footer-group;
+   font-weight: bold;
+   /* background-color: #ddd; */
+}
+.rTableBody {
+   display: table-row-group;
+   align-content: center;
+}
+
+.buttonRow{
+  display: table-row;
+  padding: 3px 10px;
+
+}
+body {
+  background-color: #a79e95;
+}
+
+h1, h2 {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  /* font-size: 160%; */
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+
+
+ul {
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: %; */
+}
+
+.button {
+  background-color: #4293f5;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.linkButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.addButton {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.removeButton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.sortButton {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 5px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
